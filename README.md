@@ -1,6 +1,14 @@
 # KES-2023
 Datasets, sentiment analysis model, and results to support the paper "SART &amp; COVIDSentiRo: Datasets for Sentiment Analysis Applied to Analyzing COVID-19 Vaccination Perception in Romanian Tweets"
 
+## Repo Description
+- SART and COVIDSentiRO datasets are located in the `datasets` folder
+- full paper can be read [here](https://github.com/Alegzandra/KES-2023/blob/main/SART%20%26%20COVIDSentiRo%20Datasets%20for%20Sentiment%20Analysis%20Applied%20to%20Analyzing%20COVID-19%20Vaccination%20Perception%20in%20Romanian%20Tweets.pdf)
+- to train the BERT-based model use `train_bert.py` and to evaluate the model use `evaluate bert.py`. Both need `bert_torch_dataset_creator.py`
+- to train the fasText-based model use `train_fasttext.py` and to evaluate the created model use `evaluate fasttext.py`
+- to analyze correlations between weekly number of vaccinated people against COVID-19 and how Romanian Twitter users perception regarding COVID-19 vaccination changes in the time-frame January 2021 - February 2022, please use  `plots_sentiment_analysis.R`
+
+## BibTeX entry and citation info
 If you are using the code and/or data please cite:
 
 ```bash
